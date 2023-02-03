@@ -47,8 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="WeakCode\SQLInjection.cs" />
-    <Compile Include="WeakCode\WeakHash.cs" />
+    <Compile Include="WeakHash.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
