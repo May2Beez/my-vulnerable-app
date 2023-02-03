@@ -3,26 +3,16 @@ on:
 
 jobs:
   SCS:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        dotnet-version: ['3.0', '3.1.x', '5.0.x' ]
+    runs-on: windows-latest
         
     steps:     
-      - uses: actions/checkout@v2
+      - uses: windows-latest
       
       - name: Set up projects
         uses: security-code-scan/security-code-scan-add-action@v1.2
 
-      - uses: actions/checkout@v3
-      - name: Setup .NET Core SDK ${{ matrix.dotnet-version }}
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: ${{ matrix.dotnet-version }}
-      - name: Install dependencies
-        run: dotnet restore
-      - name: Build
-        run: dotnet build --configuration Release --no-restore
+      - name: Build project
+      - run: msbuild Vulnerable-app.sln
         
       - name: Convert sarif for uploading to GitHub
         uses: security-code-scan/security-code-scan-results-action@v1.3
