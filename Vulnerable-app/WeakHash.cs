@@ -12,7 +12,7 @@ namespace SASTTest
             byte[] inputBytes = Encoding.UTF8.GetBytes(input);
             SHA1 sha1 = SHA1.Create();
             byte[] hash = sha1.ComputeHash(inputBytes);
-            Console.WriteLine(BitConverter.ToString(hash));
+            Console.WriteLine($"Hash: {BitConverter.ToString(hash)}");
         }
     }
 }
