@@ -16,13 +16,7 @@ jobs:
           dotnet build
         
       - name: Convert sarif for uploading to GitHub
-        uses: security-code-scan/security-code-scan-results-action@v1.3
+        uses: security-code-scan/security-code-scan-results-action@main
         
-      - name: Upload SARIF file
+      - name: Upload sarif	
         uses: github/codeql-action/upload-sarif@v2
-        with:
-          # Path to SARIF file relative to the root of the repository
-          sarif_file: results.sarif
-          # Optional category for the results
-          # Used to differentiate multiple results for one commit
-          category: my-analysis-tool
