@@ -1,0 +1,10 @@
+C:\Users\Jk\source\repos\Vulnerable-app\Vulnerable-app\bin\Debug\Vulnerable-app.exe.config
+C:\Users\Jk\source\repos\Vulnerable-app\Vulnerable-app\bin\Debug\Vulnerable-app.exe
+C:\Users\Jk\source\repos\Vulnerable-app\Vulnerable-app\bin\Debug\Vulnerable-app.pdb
+C:\Users\Jk\source\repos\Vulnerable-app\Vulnerable-app\obj\Debug\Vulnerable-app.csproj.AssemblyReference.cache
+C:\Users\Jk\source\repos\Vulnerable-app\Vulnerable-app\obj\Debug\Vulnerable-app.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jk\source\repos\Vulnerable-app\Vulnerable-app\obj\Debug\Vulnerable-app.csproj.CoreCompileInputs.cache
+C:\Users\Jk\source\repos\Vulnerable-app\Vulnerable-app\obj\Debug\Vulnerable-app.exe
+C:\Users\Jk\source\repos\Vulnerable-app\Vulnerable-app\obj\Debug\Vulnerable-app.pdb
+C:\Users\Jk\source\repos\Vulnerable-app\Vulnerable-app\bin\Debug\Vulnerable-app.exe.CodeAnalysisLog.xml
+C:\Users\Jk\source\repos\Vulnerable-app\Vulnerable-app\bin\Debug\Vulnerable-app.exe.lastcodeanalysissucceeded
